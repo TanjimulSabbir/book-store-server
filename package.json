@@ -1,14 +1,20 @@
 {
-  "name": "lws-json-server-todos",
-  "description": "Example in memory todos api with json-server by Learn with Sumit",
+  "name": "nature-world-server-site",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --no-cors true  --port 9000"
-  },
-  "dependencies": {
-    "json-server": "^0.17.1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Sumit Saha, Learn with Sumit"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0"
+  }
 }
